@@ -1,22 +1,22 @@
 # Site settings
 title: Bingozx Blog
-SEOTitle: Bingozx的博客 | Bingozx Blog
+SEOTitle: Bingozx的技术博客 | Bingozx Tech Blog
 header-img: img/home-bg.jpg
 email: your-email@domain.com
-description: "这里是 @Bingozx 的个人博客"
-keyword: "Bingozx, 博客, 个人网站, 互联网"
-url: "https://your-username.pages.dev"  # Cloudflare Pages 默认域名
+description: "编程改变世界 | 这里是 @Bingozx 的个人技术博客，与你一起探索编程的乐趣"
+keyword: "Bingozx, 博客, 个人网站, 互联网, Web, 前端, 后端, 全栈"
+url: "https://blog-9ch.pages.dev"
 baseurl: ""
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
-#weibo_username: your_weibo_username
-#zhihu_username: your_zhihu_username
+RSS: true
+#weibo_username: your-weibo-username
+#zhihu_username:  your-zhihu-username
 github_username: bingozx
-#twitter_username: your_twitter_username
+#twitter_username: your-twitter-username
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true
-sidebar-about-description: "写代码改变世界"
+sidebar-about-description: "写代码改变世界<br>Code to change the world"
 sidebar-avatar: https://github.com/bingozx.png # use absolute URL
 
 # Featured Tags
@@ -91,6 +91,7 @@ page-mathjax: false
 # Friends
 friends:
   [
+    { title: "GitHub", href: "https://github.com/bingozx" },
     { title: "乱序（Midare）", href: "http://mida.re/" },
     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
     { title: "Kun Qian", href: "http://kunq.me" },
