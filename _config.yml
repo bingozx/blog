@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: your-email@domain.com
 description: "这里是 @Bingozx 的个人博客"
 keyword: "Bingozx, 博客, 个人网站, 互联网"
-url: "https://bingozx.github.io" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://your-username.pages.dev"  # Cloudflare Pages 默认域名
+baseurl: ""
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -69,8 +69,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-XXXXXXXX-X'
+# ga_domain: auto
 
 # Sidebar settings
 sidebar: true
