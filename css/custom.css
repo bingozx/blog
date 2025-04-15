@@ -1,0 +1,135 @@
+/* 自定义主题颜色 */
+:root {
+    --theme-color: #3498db;
+    --theme-color-dark: #2980b9;
+    --text-color: #2c3e50;
+    --text-color-secondary: #7f8c8d;
+    --bg-color: #ffffff;
+    --bg-color-secondary: #f8f9fa;
+}
+
+/* 自定义字体 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: var(--text-color);
+}
+
+/* 导航栏样式 */
+.navbar-custom {
+    background-color: var(--bg-color);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .nav li a {
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .nav li a:hover {
+    color: var(--theme-color);
+    transform: translateY(-2px);
+}
+
+/* 文章卡片动画效果 */
+.post-preview {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-preview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: var(--bg-color);
+}
+
+/* 标题动画效果 */
+.post-title {
+    position: relative;
+    display: inline-block;
+}
+
+.post-title:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--theme-color);
+    transition: width 0.3s ease;
+}
+
+.post-preview:hover .post-title:after {
+    width: 100%;
+}
+
+/* 标签云动画 */
+.tags a {
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color-secondary);
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin: 2px;
+    display: inline-block;
+}
+
+.tags a:hover {
+    background-color: var(--theme-color);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* 按钮样式 */
+.btn-default {
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: var(--theme-color-dark);
+    border-color: var(--theme-color-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 页面加载动画 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post-container {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--theme-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-color-dark);
+} 
