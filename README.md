@@ -1,3 +1,36 @@
+# Bingozx Blog
+
+这是我的个人博客项目 [Bingozx Blog](https://blog-9ch.pages.dev)
+
+## 特性
+
+- 基于 Jekyll 的博客系统
+- 响应式设计
+- PWA 支持
+- 评论系统集成
+- 标签云功能
+- 归档功能
+
+## 本地运行
+
+```bash
+$ git clone git@github.com:bingozx/blog.git
+$ cd blog
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+然后在浏览器中访问 http://localhost:4000
+
+## 感谢
+
+这个博客主题基于 [Hux Blog](https://github.com/Huxpro/huxpro.github.io) 修改，感谢原作者的贡献。
+
+## 许可证
+
+Apache License 2.0.
+详见 LICENSE 文件。
+
 [Hux Blog](https://huangxuan.me)
 ================================
 
