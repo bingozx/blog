@@ -1,17 +1,17 @@
 # 开源项目
 
+以下是我的一些开源项目：
+
 ## 个人项目
 
-### [个人博客](https://github.com/bingozx/blog)
+- [博客](https://github.com/bingozx/blog)：基于 Jekyll 构建的个人技术博客
+- 更多项目开发中...
 
-- 基于 Jekyll 的个人博客系统
-- 使用 Cloudflare Pages 托管
-- 支持 Markdown 写作
-- 响应式设计，支持移动端访问
+## 贡献
 
-## 贡献项目
+我正在积极寻找机会为开源项目做出贡献。
 
-_正在参与更多开源项目..._
+欢迎访问我的 [GitHub 主页](https://github.com/bingozx) 了解更多详情。
 
 ## 技术栈
 
@@ -34,6 +34,4 @@ _正在参与更多开源项目..._
 
 1. 开发更多实用工具
 2. 参与更多开源项目
-3. 分享技术经验
-
-欢迎访问我的 [GitHub](https://github.com/bingozx) 主页，与我交流！ 
+3. 分享技术经验 
